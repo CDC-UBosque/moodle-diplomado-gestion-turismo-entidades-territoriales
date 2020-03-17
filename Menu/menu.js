@@ -7,10 +7,10 @@ $('#banner-home').html('<img src="https://ubosquemoodle.unbosque.edu.co/diseno/c
 // Menu numero 2 -----
 
 // footer curso EPOC-astrazeneca #1
-$('#footer').html('<div class="span5"><img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/EPOC-astrazeneca/images/svg/logo-ueb.svg" alt="Universidad El Bosque" /></div><div class="span1"></div><div class="span5"><img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/EPOC-astrazeneca/images/svg/logo-takeda.svg" alt="Takeda" /></div>');
+$('#footer').html('<div class="span6"><img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/EPOC-astrazeneca/images/svg/logo-ueb.svg" alt="Universidad El Bosque" /></div>');
 
 // footer curso EPOC-astrazeneca #2
-$('#footer-2').html('<div><img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/EPOC-astrazeneca/images/svg/logo-takeda-oncology.svg" alt="Takeda Oncology" /></div>');
+$('#footer-2').html('<div><img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/EPOC-astrazeneca/images/svg/logo-ueb.svg" alt="Universidad El Bosque" /></div>');
 
 
 //

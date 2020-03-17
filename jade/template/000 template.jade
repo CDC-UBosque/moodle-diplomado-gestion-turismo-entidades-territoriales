@@ -13,104 +13,6 @@ div.curso-cc
 				//- menu
 				//+menu
 				div#menu
-					<div>
-						<nav>
-							<div class="menu-toggle">
-								<i class="fa fa-bars"></i> Menú 
-							</div>
-							<ul>
-								<li class="home">
-									<a href="https://ubosquemoodle.unbosque.edu.co/course/view.php?id=4228">
-										<i class="fa fa-home"></i>
-									</a>
-								</li>
-								<li class="dropdown timeit" data-start=" 2019-04-09 00:00">
-									<a href="">Módulo 0</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-										<li role="presentation" class="divider"></li>
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown timeit" data-start=" 2019-04-22 00:00">
-									<a href="">Módulo 1</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-										<li role="presentation" class="divider"></li>
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown timeit" data-start=" 2019-05-06 00:00">
-									<a href="">Módulo 2</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-										<li role="presentation" class="divider"></li>
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown timeit" data-start=" 2019-05-20 00:00">
-									<a href="">Módulo 3</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-										<li role="presentation" class="divider"></li>
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown timeit" data-start=" 2019-06-10 00:00">
-									<a href="">Módulo 4</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-										<li role="presentation" class="divider"></li>
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown timeit" data-start=" 2019-06-24 00:00">
-									<a href="">Módulo 5</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-										<li role="presentation" class="divider"></li>
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown timeit" data-start=" 2019-07-08 00:00">
-									<a href="">Evaluaciones</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-										<li role="presentation" class="divider"></li>
-										<li>
-											<a href="#">Evaluación </a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</nav>
-					</div>
 			
 				//- banner modulo 1
 				+banner
@@ -197,7 +99,7 @@ div.curso-cc
 				+material-modulo('material-mod-1')
 				
 				//- progreso y contador
-				+paginador('#', 'disabled', 'Anterior', 'https://ubosquemoodle.unbosque.edu.co/mod/book/view.php?id=303978&chapterid=9066', 'forward', 'Siguiente')
+				+paginador('#', 'back', 'Anterior', 'https://ubosquemoodle.unbosque.edu.co/mod/book/view.php?id=303978&chapterid=9066', 'forward', 'Siguiente')
 							
 
 //- Final part of body

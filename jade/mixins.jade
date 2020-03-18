@@ -48,6 +48,22 @@ mixin paginador(linkatras, class1, Anterior, linkadelante, class2, Siguiente)
 			div#progress.progress
 			
 			
+mixin paginador-menu
+	div.progress-fullbar
+		div.pager
+			div.paginas
+				ul
+					li.previous
+					li.next
+			div.counter
+				<p><span class="eta"></span> (<!--<span class="words"></span>--> &cong; Tiempo de lectura )</p>
+			div.menuanchorbot
+				a(href="#menuanchor-top") Menú
+				//- <a href="#" id="scrollup">Scroll</a>
+		div.progressContainer
+			div#progress.progress
+			
+			
 			
 			
 			
